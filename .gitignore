@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Django
+/staticfiles
+
+# Environment Variables
+/.env/
+/.devcontainer/.env/
+
+# Devbox Environment Variables
+/devbox.d/.env
+
+db.sqlite3
